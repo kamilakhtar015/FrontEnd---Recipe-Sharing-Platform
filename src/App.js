@@ -1,8 +1,11 @@
+// import Navbar from "./components/Navbar";
+import Register from "./components/Register";
+
 function App() {
   return (
-    <div className="App">
-      Food Recipe App
-    </div>
+    <main className="App">
+      <Register />
+    </main>
   );
 }
 
