@@ -1,0 +1,35 @@
+@keyframes fadeInSequential {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section.hero {
+    margin-bottom: 20px;
+
+    .col {
+        width: 50%;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        position: relative;
+        overflow: hidden;
+
+        .custom-image {
+            animation: fadeInSequential 10s ease-in-out; /* Adjust the animation duration as needed */
+        }
+    }
+}

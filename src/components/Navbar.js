@@ -3,9 +3,8 @@ export default function Navbar(){
         <div className="navbar container">
             <a href="#!" className="logo">Re<span>cip</span>eSha<span>rin</span>g</a>
             <div className="nav-links">
-                <a href="#!">Home</a>
-                <a href="#!">Recipes</a>
-                <a href="#!">Settings</a>
+                <a href="#!">Login</a>
+                <a href="#!">About Us</a>
             </div>
 
         </div>
