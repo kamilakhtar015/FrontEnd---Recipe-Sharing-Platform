@@ -1,13 +1,4 @@
-:root {
-    --background-color: #fff;
-    --background-light: #ebbebe;
-    --shadow-color: rgba(0, 0, 0, 0.2);
-    --primary-color: rgb(94, 238, 81);
-    --text-color: #0a0a0a;
-    --text-light: #575757;
-    --font-size: 20px;
-    --animation-speed: 1;
-}
+@import "partials/variables";
 
 * {
     margin: 0;
@@ -26,6 +17,7 @@ a {
 
 @import "partials/navigationBar.scss";
 
+
 .container {
     padding-inline: 12vw;
 }
@@ -38,14 +30,14 @@ a {
     display: flex;
     align-items: center;
     margin-bottom: .5vw;
-
+    
     .title {
         color: var(--text-color);
         font-size: 2.5em;
         margin-bottom: .25em;
         font-weight: 900;
     }
-
+    
     .info {
         color: var(--text-light);
         font-size: 1em;
@@ -54,7 +46,7 @@ a {
         margin-bottom: 1.25em;
         padding-right: 2em;
     }
-
+    
     .col {
         width: 50%;
     }
@@ -76,7 +68,7 @@ img {
     letter-spacing: 1px;
     border-radius: 3px;
     box-shadow: 0 2px 6px var(--shadow-color);
-
+    
     &:hover {
         box-shadow: 0 1px 3px var(--shadow-color);
     }
@@ -96,7 +88,7 @@ img {
     &:hover {
         border-color: #ff0000; /* Change border color on hover */
     }
-
+    
     img {
         position: absolute;
         top: 0;
@@ -109,3 +101,5 @@ img {
 
 @import "partials/_improveSkills.scss";
 @import "partials/quote";
+
+@import "partials/loginForm.scss";
